@@ -2,7 +2,7 @@
 
 In this article, you learn about configuring a custom startup script, if needed, for a WordPress site hosted on Linux App Service. For running locally, you don't need a startup file. However, when you deploy a web app to Azure App Service, your code is run in Docker container that can use any startup commands if they are present.
 
-The major problem that is solved using startup script is to update files in non-persistent storage (see App Service Storage section). Linux App Service architecture inherently has non-persistent storage i.e. file changes do not sustain after app restart. Custom configuration of any tool such as nginx wouldn't be possible by simply updating nginx config files since they would revert back when the app service restarts. Startup script enables you to add startup commands that are executed after an app container starts to make file changes that sustain through app restarts. 
+The major problem that is solved using startup script is updating files in non-persistent storage (see App Service Storage section). Linux App Service architecture inherently has non-persistent storage i.e. file changes do not sustain after app restart. Custom configuration of any tool such as nginx wouldn't be possible by simply updating nginx config files since they would revert back when the app service restarts. Startup script enables you to add startup commands that are executed after an app container starts to make file changes that sustain through app restarts. 
  
 ## How Startup script works?
  
