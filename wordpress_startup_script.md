@@ -16,11 +16,11 @@ WordPress App Services (Linux) use a central App Service Storage which is a remo
  
 The startup script is an empty file by default. Navigate to Webssh in scm portal of your WordPress app to update the startup script using the defaults vim/vi editors as shown below.<br><br>
  
-<kbd><img src="./media/wp_startup_script_1.png" width="1000" /></kbd>
-<kbd><img src="./media/wp_startup_script_2.png" width="1000" /></kbd>
-<kbd><img src="./media/wp_startup_script_3.png" width="1000" /></kbd>
+<kbd><img src="./media/wp_startup_script_1.png" width="1000" /></kbd><br>
+<kbd><img src="./media/wp_startup_script_2.png" width="1000" /></kbd><br>
+<kbd><img src="./media/wp_startup_script_3.png" width="1000" /></kbd><br>
  
-Add your start-up commands to /home/dev/startup.sh file using the default vi/vim editors as shown below. <br><br>
+Add your start-up commands to /home/dev/startup.sh file using the default vi/vim editors as shown below. <br>
 
 <kbd><img src="./media/wp_startup_script_4.png" width="1000" /></kbd>
 
